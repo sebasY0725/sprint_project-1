@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcast Channel</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Logo Pestaña -->
+    <link rel="icon" type="image/svg" href="assets/logo.svg" />
+  </head>
+  <body>
+    <header>
+      <nav class="menunav-desktop">
+        <!-- MENU NAV -->
+        <div class="container">
+          <ul class="nav-items">
+            <!-- Left -->
+            <li>
+              <img src="assets/logo.svg" alt="Logo" class="logo" />
+            </li>
+            <!-- Right -->
+            <li class="nav-item">
+              <a class="nav-item" href="#topicos">TÓPICOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#entrevistas">ENTREVISTAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#nosotros">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#episodios">EPISODIOS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="menunav-mobile">
+        <div class="collapsible-menu">
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+            <img src="assets/logo.svg" alt="Logo" class="logo-mobile" />
+            <i class="fas fa-bars"></i>
+            <i class="fa fa-times"></i>
+          </label>
+          <div class="menu-content">
+            <ul>
+              <li>
+                <a href="#topicos">TÓPICOS</a>
+              </li>
+              <li>
+                <a href="#entrevistas">ENTREVISTAS</a>
+              </li>
+              <li>
+                <a href="#nosotros">NOSOTROS</a>
+              </li>
+              <li>
+                <a href="#episodios">EPISODIOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header principal -->
+    <div class="container-header">
+      <!-- Título principal -->
+      <div>
+        <h1 class="titulo">
+          Hello
+        </h1>
+        <h1 class="titulo line">
+          world
+        </h1>
+        <h1 class="titulo">
+          pale blue dot
+        </h1>
+        <h1 class="punto-color">.</h1>
+      </div>
+      <!-- Parráfo principal -->
+      <div>
+        <p class="texto">
+          El portal de podcasts que explora el mundo de la programación y <br />
+          la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <p class="texto-mobile">
+          Un podcast que explora el mundo de la programación. Nuevos episodios,
+          todos los jueves cada 15 días.
+        </p>
+      </div>
+      <!-- Botón principal -->
+      <div>
+        <button class="boton boton-mobile texto-boton">
+          <strong>CONOCÉ MÁS</strong>
+        </button>
+      </div>
+    </div>
+    <main>
+      <!-- Sección Episodios -->
+      <section class="background">
+        <!-- Título -->
+        <h2
+          class="titulo-blanco titulo-margin-left titulo-blanco-mobile"
+          id="episodios"
+        >
+          Episodios
+        </h2>
+
+        <!-- Cuatro Spotify Iframes -->
+        <div class="spotify">
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+              class="iframes"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+              class="iframes"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <div class="spotify padding">
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+              class="iframes"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+              class="iframes"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <br /><br /><br /><br />
+      </section>
+      <!-- Sección de donde venimos -->
+      <section class="section2">
+        <!-- Imagen Left -->
+        <img src="assets/phone.png" alt="phone" class="phone" id="nosotros" />
+
+        <!-- Contenido Right -->
+        <div>
+          <h2 class="titulo-negro titulo-margin-left-mobile">
+            De dónde venimos
+          </h2>
+          <p class="texto texto-margin-bottom">
+            Our posturings, our imagined self-importance,<br />
+            the delusion that we have some privileged <br />
+            position in the Universe, are challenged by this point <br />
+            of pale light.
+          </p>
+          <p class="texto">
+            Our planet is a lonely speck in the great <br />
+            enveloping cosmic dark. In our obscurity, in all <br />
+            this vastness, there is no hint that help will <br />
+            come from elsewhere to save us from ourselves.
+          </p>
+          <p class="texto-mobile2 texto-margin-bottom">
+            Our posturings, our imagined self-importance,<br />
+            the delusion that we have some privileged <br />
+            position in the Universe, are challenged by this point <br />
+            of pale light.
+          </p>
+          <p class="texto-mobile2">
+            Our planet is a lonely speck in the great <br />
+            enveloping cosmic dark. In our obscurity, in all <br />
+            this vastness, there is no hint that help will <br />
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </section>
+      <!-- Sección Invitadas/os estelares -->
+      <section id="entrevistas">
+        <!-- Título de la sección -->
+
+        <h2 class="titulo-negro titulo-margin-left-mobile titulo-margin-left">
+          Invitadas/os estelares
+        </h2>
+
+        <!-- Contenido / Imágenes -->
+        <div class="container-images">
+          <img
+            src="assets/grace-hopper.png"
+            alt="Grace Hopper"
+            class="images"
+          />
+
+          <img
+            src="assets/Katie-Bouman.png"
+            alt="Katie Bouman"
+            class="images"
+          />
+
+          <img
+            src="assets/Margaret_Hamilton.png"
+            alt="Margaret Hamilton"
+            class="images"
+          />
+
+          <img
+            src="assets/AnE.R.A.Univac1103computerinthe1950s.png"
+            alt="An E.R.A.Univac 1103 computer in the 1950s"
+            class="images"
+          />
+
+          <img
+            src="assets/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png"
+            alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer"
+            class="images"
+          />
+
+          <img src="assets/susan-kare.png" alt="Susan Kare" class="images" />
+        </div>
+      </section>
+      <!-- Sección Algunos de nuestros temas -->
+      <section id="topicos">
+        <!-- Título de la sección -->
+        <div>
+          <h2
+            class="titulo-negro titulo-margin-left titulo-margin-bottom titulo-margin-left-mobile"
+          >
+            Algunos de nuestros temas
+          </h2>
+        </div>
+        <!-- Contenido de la sección -->
+        <div class="container-temas">
+          <div>
+            <img src="assets/icon1.svg" alt="Trabajo remoto" class="images2" />
+            <p class="texto2">
+              Trabajo remoto
+            </p>
+          </div>
+          <div>
+            <img
+              src="assets/icon2.svg"
+              alt="Repensando la programación"
+              class="images2"
+            />
+            <p class="texto2">
+              Repensando la <br />
+              programación
+            </p>
+          </div>
+          <div>
+            <img
+              src="assets/icon3.svg"
+              alt="Bases del código"
+              class="images2"
+            />
+            <p class="texto2">
+              Bases del código
+            </p>
+          </div>
+          <div>
+            <img
+              src="assets/icon4.svg"
+              alt="Seguridad informática"
+              class="images2"
+            />
+            <p class="texto2">
+              Seguridad <br />
+              informática
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Sección ¿Querés las últimas novedades? -->
+      <section class="background2">
+        <!-- Título de la sección -->
+        <div class="">
+          <h2
+            class="titulo-blanco2 titulo-centrado titulo-margin-bottom titulo-mobile1"
+          >
+            ¿Querés las últimas novedades?
+          </h2>
+        </div>
+        <!-- Enlace de la sección -->
+        <div>
+          <button class="boton2 texto-boton">
+            <strong>ESCUCHÁ LOS EPISODIOS</strong>
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div>
+        <div>
+          <ul class="nav-items2">
+            <!-- Contenido Left -->
+            <li class="logo2">
+              <p class="texto">
+                © 2019 - Hello blue pale dot
+              </p>
+              <p class="texto-mobile3">
+                © 2019 - Hello blue pale dot
+              </p>
+            </li>
+            <!-- Contenido Right -->
+            <li class="nav-item2">
+              <a
+                class="nav-item2"
+                href="https://open.spotify.com/"
+                target="_blank"
+              >
+                <i class="fab fa-spotify"></i>
+              </a>
+            </li>
+            <li class="nav-item2">
+              <a
+                class="nav-item2"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item2">
+              <a href="https://twitter.com/" target="_blank" class="nav-item2">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item2">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="nav-item2"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item2">
+              <a
+                href="https://web.telegram.org/"
+                target="_blank"
+                class="nav-item2"
+              >
+                <i class="fab fa-telegram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
